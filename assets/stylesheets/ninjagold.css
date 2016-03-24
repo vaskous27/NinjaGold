@@ -1,0 +1,38 @@
+#container{
+	height:800px;
+	width:800px;
+	border:1px solid black;
+	padding:2%;
+}
+#score{
+	display: inline;
+	border:1px solid black;
+}
+#textlog{
+	width: 750px;
+    height: 150px;
+    margin: 0px 20px;
+	text-align: left;
+	border:1px solid black;
+	overflow: auto;
+	position : relative; bottom:0;
+}
+#red{
+	color:red;
+}
+.scoreText{
+	display: inline-block;
+}
+.actions{
+    height: 200px;
+    width: 180px;
+    margin: 0px 5px;
+	border:1px solid black;
+	display: inline-block;
+	text-align: center;
+}
+
+.button button{
+	margin-left: 350px;
+	margin-top: 20px;
+}
